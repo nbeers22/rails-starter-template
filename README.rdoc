@@ -1,30 +1,32 @@
-== rails-starter-template
+= Rails Starter Template
 
-Rails starter app template complete with Devise and Bootstrap 
+Rails starter app template complete with the following:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Devise
 
-Things you may want to cover:
+* configured to add <tt>first_name</tt> and <tt>last_name</tt> as extra parameters on <tt>User</tt>
+* All necessary controller actions and views configured
 
-* Ruby version
+{Click Here For More Information About Devise}[https://github.com/plataformatec/devise]
 
-* System dependencies
+=== Bootstrap
 
-* Configuration
+* <tt>bootstrap.min.js</tt> and <tt>bootstrap.min.css</tt> are include, required properly, and ready to use immediately
 
-* Database creation
+* Bootstrap Glyphicons are already in place in the proper directory and included in the <tt>application.css</tt> file correctly.
 
-* Database initialization
+{Click Here For More Information About Bootstrap}[http://getbootstrap.com/components/]
 
-* How to run the test suite
+=== Simple_Form
 
-* Services (job queues, cache servers, search engines, etc.)
+* Simple Form Gem is installed with base configurations, and already applied to all Devise forms with the proper Bootstrap form classes and format.
 
-* Deployment instructions
+{Click Here For More Information About Simple Form}[https://github.com/plataformatec/simple_form]
 
-* ...
+=== Active_Admin
+
+* Active Admin gem installed and configured already to include a list of all users within the admin dashboard
+
+{Click Here For More Information About }[https://github.com/activeadmin/activeadmin]
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
