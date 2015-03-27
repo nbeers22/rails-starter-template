@@ -1,0 +1,15 @@
+<div class="row">
+	<div class="col-sm-12">
+		<h1>Welcome to the Rails starter template</h1>
+		<p class="lead">
+			<% unless user_signed_in?  %>
+				<%= link_to 'Click here', new_user_registration_path  %> to create an account or  <%= link_to 'click here',  new_user_session_path  %> to Sign in.
+			<% else %>
+				Welcome <%= current_user.first_name.titleize %>, <%= link_to 'Click here', edit_user_registration_path  %> to update your profile.
+			<% end %>
+		</p>
+
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam expedita eum eos eaque vitae ipsa a voluptatum non quis placeat dolores dolor officia, quam aliquam, voluptatem quas quod quae molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam expedita eum eos eaque vitae ipsa a voluptatum non quis placeat dolores dolor officia, quam aliquam, voluptatem quas quod quae molestias.</p>
+	</div>
+</div>
