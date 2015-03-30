@@ -27,6 +27,6 @@ Rails starter app template complete with the following:
 
 * Active Admin gem installed and configured already to include a list of all users within the admin dashboard
 
-{Click Here For More Information About }[https://github.com/activeadmin/activeadmin]
+{Click Here For More Information About Active Admin}[https://github.com/activeadmin/activeadmin]
 
 
